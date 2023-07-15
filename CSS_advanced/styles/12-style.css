@@ -37,6 +37,9 @@ html{
 .section-header{
     text-align: var(--section-header-align);
 }
+.card-category{
+    color: var(--color-primary);
+}
 .section-title{
     font-family: var(--font-family-title);
     font-size: var(--font-size-xx-large);
@@ -50,10 +53,6 @@ html{
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
 }
-.card-category{
-    color: var(--color-primary);
-}
-
 body{
     color: var(--text-color);
     font-family: var(--font-family-base);
