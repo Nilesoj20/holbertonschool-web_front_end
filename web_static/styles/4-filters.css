@@ -5,7 +5,7 @@
     border: solid 1px #DDDDDD;
     border-radius: 4px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: end;
     align-items: center;
     text-align: right;
 }
@@ -21,7 +21,6 @@ section.filters button {
     opacity: 1;
     transition: 0.3s;
 }
-
-.button:hover {
+section.filters button:hover {
     opacity: 90%;
 }
