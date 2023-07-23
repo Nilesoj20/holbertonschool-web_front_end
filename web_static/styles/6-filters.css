@@ -96,9 +96,11 @@ ul li h2 {
 }
 
 .locations:hover .popover {
+    cursor: pointer;
     visibility: visible;
     margin-bottom: 50px;
 }
 .amenities:hover .popover_2 {
+    cursor: pointer;
     visibility: visible;
 }

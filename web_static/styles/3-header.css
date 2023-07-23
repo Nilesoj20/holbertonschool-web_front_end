@@ -1,10 +1,13 @@
 .imagen{
-    color: white;
+    background-color: white;
     height: 70px;
     width: 100%;
-    border-bottom: 1px solid #CCCCCC;
-    background-image: url(https://res.cloudinary.com/dxj2qfzio/image/upload/v1689784448/logo_uuofss.png);
+    background-image: url("../images/logo.png");
     background-repeat: no-repeat;
-    background-size: auto;
+}
+header {
+    display: flex;
+    justify-content: start;
     padding-left: 20px;
+    border-bottom: 1px solid #CCCCCC;
 }
